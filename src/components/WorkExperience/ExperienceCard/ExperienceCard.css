@@ -1,0 +1,135 @@
+/* Default style */
+.work-experience-card {
+    background: #102a43; /* deep background */
+    border-radius: 0.75rem;
+    border: 1.5px solid #66abe3; /* soft border to match projects */
+    padding: 1.5rem;
+    margin: 0 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* subtle depth */
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.work-experience-card:hover {
+    background: #1f3c5d; /* hover effect like projects */
+}
+
+.work-experience-card h6 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    color: #a892fe; /* match project title color */
+}
+
+.work-duration {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 400;
+    background: rgba(100, 150, 255, 0.2); /* soft bluish tint */
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.5rem;
+    color: #92affe; /* lighter text tone */
+}
+
+.work-experience-card ul li {
+    list-style: none;
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+    position: relative;
+    color: #e9f1fa; /* soft white for readability */
+}
+
+.work-experience-card ul li::before {
+    content: " ";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #66abe3; /* brighter bullet to match */
+    border-radius: 50%;
+    position: absolute;
+    left: -1.3rem;
+    top: 0.5rem;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots {
+    bottom: -20px;
+}
+
+.slick-prev, .slick-next {
+    color: #dbe7fd;
+}
+
+/* ----------------- Responsive ----------------- */
+
+/* For medium screens (tablet and above) */
+@media (max-width: 1024px) {
+    .work-experience-card {
+        margin: 1rem; /* Reduce margins */
+        padding: 1rem; /* Reduce padding for smaller screens */
+    }
+
+    .work-experience-card h6 {
+        font-size: 1.3rem; /* Adjust heading size */
+    }
+
+    .work-duration {
+        font-size: 0.8rem; /* Adjust font size */
+    }
+
+    .work-experience-card ul li {
+        font-size: 0.9rem; /* Adjust font size for readability */
+    }
+}
+
+/* For smaller screens (phones and below) */
+@media (max-width: 768px) {
+    .work-experience-card {
+        padding: 1rem; /* Further reduce padding */
+    }
+
+    .work-experience-card h6 {
+        font-size: 1.2rem; /* Adjust heading size */
+    }
+
+    .work-duration {
+        font-size: 0.75rem; /* Adjust font size */
+    }
+
+    .work-experience-card ul li {
+        font-size: 0.85rem; /* Smaller font for better readability */
+    }
+
+    .slick-slide {
+        justify-content: flex-start; /* Align slides better on small screens */
+    }
+}
+
+/* For very small screens (phones in portrait mode) */
+@media (max-width: 480px) {
+    .work-experience-card {
+        margin: 1rem 0.5rem; /* Further reduce margins */
+        padding: 0.8rem; /* Further reduce padding */
+    }
+
+    .work-experience-card h6 {
+        font-size: 1.1rem; /* Adjust heading size */
+    }
+
+    .work-duration {
+        font-size: 0.7rem; /* Adjust font size */
+    }
+
+    .work-experience-card ul li {
+        font-size: 0.8rem; /* Adjust font size */
+    }
+
+    .slick-slide {
+        justify-content: center; /* Center slides on smaller screens */
+    }
+}

@@ -1,0 +1,113 @@
+.projects-container {
+  margin: 5rem 0;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.projects-container h5 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #102a43; /* deep background */
+  border: 1.5px solid #66abe3; /* soft border */
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* deeper shadow */
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.project-card:hover {
+  background: #1f3c5d; /* hover background */
+  transform: translateY(-5px);
+}
+
+.project-card h6 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+  color: #a892fe; /* title color */
+}
+
+.project-date {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #92affe; /* date color */
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #e9f1fa; /* description color */
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #102a43;
+  background: #66abe3;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+  background: #92bdfe;
+  color: #102a43;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(27, 67, 94, 0.5); /* Dark, semi-transparent */
+  border-radius: 0.65rem;
+  border: 2px solid #516db9; /* Soft bluish border */
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-box:hover {
+  background-color: #516db9; /* Brighter blue on hover */
+  border-color: #4a5999; /* Slightly darker border on hover */
+}
+
+.icon-box svg {
+  color: #dbe7fd; /* Soft light blue for the icons */
+  transition: color 0.3s ease;
+}
+
+.icon-box:hover svg {
+  color: #ffffff; /* White icon on hover */
+}
