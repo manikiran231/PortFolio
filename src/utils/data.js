@@ -88,8 +88,8 @@ export const PROJECTS = [
         description: "A portfolio website built with React and Redux to showcase skills, projects, and professional information. Features interactive sections, responsive design, modern aesthetics, animations, smooth transitions, dynamic content rendering and highlighting frontend development and state management expertise",
         date: "October 2024 - November 2024",
         image: project3Image,
-        codeLink: "https://github.com/manikiran231/Portfolio-Website",
-        liveLink: "https://project3-live-link.com"
+        codeLink: "https://github.com/manikiran231/PortFolio",
+        liveLink: "https://portfolio-tjr4.onrender.com/"
     },
     {
         title: "DevWiz",
