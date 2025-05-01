@@ -25,7 +25,7 @@ To run this project locally:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/manikiran231/portfolio.git
 ```
 2. **Install the dependencies**:
 
@@ -38,7 +38,7 @@ npm install
 ```bash
 npm run dev
 ```
-4. **Open the project in your browser at `http://localhost:3000`**.
+4. **Open the project in your browser at `http://localhost:5173`**.
 
 ---
 
