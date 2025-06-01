@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./Projects.css";
 import { PROJECTS } from "../../utils/data";
-import { FaCode, FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -127,7 +127,7 @@ const Projects = () => {
                 }}
                 transition={{ delay: index * 0.1, duration: 0.8 }}
               >
-                <FaCode />
+                <div style={{fontSize:"20px", marginBottom:"-10px"}}><FaGithub /></div>
               </motion.a>
 
               <motion.a
@@ -144,7 +144,7 @@ const Projects = () => {
                 }}
                 transition={{ delay: index * 0.1, duration: 0.8 }}
               >
-                <FaGithub />
+                <div style={{fontSize:"15px",marginTop:"2px"}}><FaExternalLinkAlt/></div>
               </motion.a>
             </div>
           </motion.div>

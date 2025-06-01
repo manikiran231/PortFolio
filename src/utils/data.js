@@ -99,17 +99,17 @@ export const PROJECTS = [
         description: "A personal portfolio site with animations, responsive design, and dynamic sections for skills, projects, and resume. Built using React and Redux for a smooth and interactive user experience.",
         
         image: project3Image,
-        codeLink: "https://github.com/manikiran231/Portfolio-Website",
-        liveLink: "https://project3-live-link.com",
-        tags:["Vite", "React","Redux","Framer Motion"]
+        codeLink: "https://github.com/manikiran231/PortFolio",
+        liveLink: "https://portfolio-tjr4.onrender.com/",
+        tags:["Vite", "React","Redux","Framer Motion","React Icons"]
     },
     {
         title: "Restaurant Finder",
-        description: "A full-stack web app that helps users discover restaurants by location, cuisine, and preferences. It features advanced search, Zomato API integration, user reviews, bookmarks, and interactive maps, with a responsive UI and secure backend.",
+        description: "A full-stack web app that helps users find restaurants by location, cuisine, and preferences. It features advanced search, Zomato API integration, reviews, bookmarks, and interactive maps, with a responsive UI.",
         image: blogAppImage,
         codeLink: "https://github.com/manikiran231/Restaurant-Finder",
         liveLink: "https://zomato-task.vercel.app/",
-        tags: ["React", "Node.js", "MongoDB", "Express",]
+        tags: ["React", "Node.js", "MongoDB", "Express", "Zomato API"]
     },
     {
         title: "Delicious-Bite",
