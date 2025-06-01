@@ -100,8 +100,7 @@ export const PROJECTS = [
         
         image: project3Image,
         codeLink: "https://github.com/manikiran231/Portfolio-Website",
-        liveLink: "https://project3-live-link.com",
-        tags: ["React", "Redux", "Framer Motion", "Responsive Design"]
+        liveLink: "https://project3-live-link.com"
     },
     {
         title: "Restaurant Finder",
