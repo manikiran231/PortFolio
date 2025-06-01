@@ -9,6 +9,7 @@ import medConnectImage from '../assets/med.png';
 import project3Image from '../assets/port.png';
 import project4Image from '../assets/proj4.png';
 import devWizImage from '../assets/proj5.png';
+import blog from '../assets/proj6.png';
 // data.js
 
 export const skills = {
@@ -38,7 +39,7 @@ export const skills = {
     ]
 };
 
-  
+
 
 export const WORK_EXPERIENCE = [
     {
@@ -68,48 +69,57 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
     {
-        title: "Restaurant Finder",
-        description: "A full-stack application integrating Zomato API to fetch real-time restaurant data. Features a Node.js backend, MongoDB database, and React frontend for searching restaurants, applying filters, and exploring details. Demonstrates API integration, database management, and responsive UI design.",
-        date: "December 2024 - February 2025",
-        image: blogAppImage,
-        codeLink: "https://github.com/manikiran231/Restaurant-Finder",
-        liveLink: "https://zomato-task.vercel.app/"
-    },
-    {
         title: "EduCraft",
-        description: "An educational portal built with React, offering courses, user authentication, and user dashboard. Users can enroll in courses, view grades, and submit feedback directly via EmailJS. The backend is powered by Express.js and MongoDB for data storage & management, showcasing skills in full-stack development, database handling.",
-        date: "March 2025 - Present",
+        description: "An educational platform for course enrollment, feedback, and student-teacher interaction. It includes dashboards, real-time notifications, analytics, and secure auth, offering a scalable and user-friendly experience.",
         image: medConnectImage,
         codeLink: "https://github.com/manikiran231/EduCraft",
-        liveLink: "https://edu-craft-three.vercel.app/"
-    },    
-    {
-        title: "Portfolio Website",
-        description: "A portfolio website built with React and Redux to showcase skills, projects, and professional information. Features interactive sections, responsive design, modern aesthetics, animations, smooth transitions, dynamic content rendering and highlighting frontend development and state management expertise",
-        date: "October 2024 - November 2024",
-        image: project3Image,
-        codeLink: "https://github.com/manikiran231/Portfolio-Website",
-        liveLink: "https://project3-live-link.com"
+        liveLink: "https://edu-craft-three.vercel.app/",
+        tags: ["React", "Express", "Node.js", "MongoDB", "EmailJS"]
     },
     {
         title: "DevWiz",
-        description: "DevWiz is an all-in-one utility app designed for developers. It combines essential developer tools like JSON formatter, color picker, password generator, and more, into a single, easy-to-use platform. Built using React and Vite, the app focuses on improving productivity by consolidating multiple tasks in one place.",
-        date: "April 2024 - Present",
-        image: devWizImage,  // (Update this with your actual imported image for DevWiz)
+        description: "A productivity toolbox for developers featuring utilities like text analysers, code formatters, JSON validators, color pickers and many more. Built with React and Vite, it offers a modular and efficient experience in a single platform.",
+        
+        image: devWizImage,
         codeLink: "https://github.com/manikiran231/devwiz",
-        liveLink: "https://devwiz.onrender.com/"  // Replace with live deployment link if applicable
+        liveLink: "https://devwiz.onrender.com/",
+        tags: ["React", "Vite", "Toolbox App", "JavaScript", "UI/UX"]
     },
-    
+    {
+        title: "Scribbly",
+        description: "A full-stack blogging platform with JWT auth, blog CRUD, image uploads via Cloudinary, and a responsive EJS and Bootstrap based UI. Features include dark/light mode toggle, user dashboard, and file support.",
+        
+        image: blog,
+        codeLink: "https://github.com/manikiran231/Scribbly",
+        liveLink: "https://scribbly-qw4o.onrender.com",
+        tags: ["Node.js", "Express", "MongoDB", "EJS", "Cloudinary", "JWT", "Bootstrap"]
+    },
+    {
+        title: "Portfolio Website",
+        description: "A personal portfolio site with animations, responsive design, and dynamic sections for skills, projects, and resume. Built using React and Redux for a smooth and interactive user experience.",
+        
+        image: project3Image,
+        codeLink: "https://github.com/manikiran231/Portfolio-Website",
+        liveLink: "https://project3-live-link.com",
+        tags: ["React", "Redux", "Framer Motion", "Responsive Design"]
+    },
+    {
+        title: "Restaurant Finder",
+        description: "A full-stack web app that helps users discover restaurants by location, cuisine, and preferences. It features advanced search, Zomato API integration, user reviews, bookmarks, and interactive maps, with a responsive UI and secure backend.",
+        image: blogAppImage,
+        codeLink: "https://github.com/manikiran231/Restaurant-Finder",
+        liveLink: "https://zomato-task.vercel.app/",
+        tags: ["React", "Node.js", "MongoDB", "Express",]
+    },
     {
         title: "Delicious-Bite",
-        description: "A recipe application built using HTML, CSS, and JavaScript that connects to an external API to fetch food data. Users can search for a specific dish and receive multiple suggestions. Upon selecting a recipe, they can view complete details showcasing skills in API integration, dynamic UI updates, and vanilla JavaScript development.",
-        date: "April 2024 - May 2024",
-        image: project4Image,  // (Update this with your actual imported image for Delicious-Bite)
+        description: "A recipe finder app using JavaScript and external APIs. Users can search by ingredients, view instructions, nutrition info, and save recipes, all within a clean, responsive UI.",
+        
+        image: project4Image,
         codeLink: "https://github.com/manikiran231/Delicious-Bite",
-        liveLink: "https://delicious-bite-two.vercel.app/"
-    },
-
-    
+        liveLink: "https://delicious-bite-two.vercel.app/",
+        tags: ["HTML", "CSS", "JavaScript", "Recipe API", "Email JS"]
+    }
 ];
 
 

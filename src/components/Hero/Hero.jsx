@@ -65,7 +65,7 @@ const Hero = () => {
                     }}
                     transition={{ delay: 0.5, duration: 0.8 }}  // Fade-in effect for the text
                 >
-                    A Pre Final Year Computer Science Student
+                    A Final Year Computer Science Student
                 </motion.p>
                 <motion.p
                     initial="hidden"

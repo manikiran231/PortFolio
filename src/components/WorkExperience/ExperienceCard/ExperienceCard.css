@@ -112,6 +112,7 @@
 
 /* For very small screens (phones in portrait mode) */
 @media (max-width: 480px) {
+    
     .work-experience-card {
         margin: 1rem 0.5rem; /* Further reduce margins */
         padding: 0.8rem; /* Further reduce padding */
