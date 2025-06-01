@@ -144,7 +144,7 @@ const Projects = () => {
                 }}
                 transition={{ delay: index * 0.1, duration: 0.8 }}
               >
-                <FaGithub />  
+                <FaGithub />
               </motion.a>
             </div>
           </motion.div>
